@@ -20,5 +20,5 @@ services:
   users:
     build:
       context: .
-      dockerfile: users
+      dockerfile: Dockerfile
     command: ["sh", "-c", "while true; do echo 'users'; sleep 3600; done"]
